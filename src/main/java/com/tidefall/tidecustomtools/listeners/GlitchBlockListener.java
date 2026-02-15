@@ -32,8 +32,7 @@ public class GlitchBlockListener implements Listener {
 
     private static final Material[] GLITCH_MATERIALS = {
             Material.PURPLE_CONCRETE,
-            Material.LIME_CONCRETE,
-            Material.YELLOW_CONCRETE
+            Material.PINK_CONCRETE,
     };
 
     private BlockData[] glitchBlockData;
