@@ -1,0 +1,17 @@
+name: TideCustomTools
+version: ${version}
+main: com.tidefall.tidecustomtools.TideCustomTools
+api-version: '1.21'
+authors: [Tidefall]
+description: Custom tools and enchantments for Tidefall
+
+commands:
+  tcustom:
+    description: Apply custom enchantments
+    usage: /tcustom enchant glitch
+    permission: tidecustomtools.command
+    
+permissions:
+  tidecustomtools.command:
+    description: Allows use of /tcustom command
+    default: op
